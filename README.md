@@ -61,17 +61,13 @@ int main(void)
 
 ##OUTPUT
 
-
+```
 
 localhost:~# gcc -o output.c pidcheck.c
 localhost:~# ./output.c
 The process id: 96
 The process id of parent function: 61
-
-
-
-
-
+```
 
 
 
@@ -110,11 +106,13 @@ int main() {
 
 
 ##OUTPUT
+```
 localhost:~# gcc -o output.c pidcheck.c
 localhost:~# ./output.c
 I am parent, my pid is 96
 I am child, my pid is 97
 My parent pid is: 96
+```
 
 
 
@@ -213,8 +211,7 @@ int main() {
 
 
 ##OUTPUT
-
-
+```
 localhost:~# gcc -o output.c pidcheck.c
 localhost:~# ./output.c
 Running ps with execlp
@@ -290,18 +287,7 @@ PID   USER     TIME  COMMAND
 105 root      0:00 ps ax
 Child exited with status of 0
 Done.
-
-
-
-
-
-
-
-
-
-
-
-
+```
 
 
 
